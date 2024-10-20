@@ -199,7 +199,7 @@ class _HtmlParserState extends State<HtmlParser> {
       children: [],
       node: widget.htmlData,
       style: Style.fromTextStyle(DefaultTextStyle.of(context)
-          .style), //TODO this was Theme.of(context).textTheme.bodyText2!. Compare.
+          .style), //TODO this was Theme.of(context).textTheme.bodyMedium!. Compare.
     );
 
     for (var node in widget.htmlData.nodes) {
